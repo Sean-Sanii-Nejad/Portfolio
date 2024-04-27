@@ -1,0 +1,69 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin: 0px 0px;
+    background-color: #6b5220;
+    position: fixed;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+  }
+
+  .nav-menu {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 80px;
+    font-size: 20px;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    padding-top: 5px;
+  }
+
+  .instagram {
+    width: 47.5px;
+    height: 45px;
+    transition: 0.5s;
+  }
+  
+  .linkedin {
+    width: 47.5px;
+    height: 45px;
+    transition: 0.5s;
+  }
+  
+  .facebook {
+    width: 47.5px;
+    height: 45px;
+    transition: 0.5s;
+  }
+
+  .instagram:hover {
+    transform: scale(1.10);
+  }
+  
+  .facebook:hover {
+    transform: scale(1.10);
+  }
+  
+  .linkedin:hover {
+    transform: scale(1.10);
+  }
+
+  .nav-mob-close{
+    display: none;
+  }
+
+  .social-icons-container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content:space-evenly;
+    width: 200px;
+    position:relative;
+  }
