@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-react/static/css/main.318571d1.css",
+    "main.js": "/test-react/static/js/main.49d4965a.js",
+    "static/js/453.1407b060.chunk.js": "/test-react/static/js/453.1407b060.chunk.js",
+    "static/media/footer.png": "/test-react/static/media/footer.ec8343e25b7feb270dd3.png",
+    "static/media/logo_facebook.png": "/test-react/static/media/logo_facebook.d11f386078ed52d48366.png",
+    "static/media/logo_linkedin.png": "/test-react/static/media/logo_linkedin.4db8f5a42b7e432b5224.png",
+    "static/media/logo_instagram.png": "/test-react/static/media/logo_instagram.57a43220c81b4de99246.png",
+    "index.html": "/test-react/index.html",
+    "static/media/menu_close.svg": "/test-react/static/media/menu_close.d7bcdac2acc8f22501cacb6bbabbb700.svg",
+    "static/media/menu_open.svg": "/test-react/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
+    "main.318571d1.css.map": "/test-react/static/css/main.318571d1.css.map",
+    "main.49d4965a.js.map": "/test-react/static/js/main.49d4965a.js.map",
+    "453.1407b060.chunk.js.map": "/test-react/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.318571d1.css",
+    "static/js/main.49d4965a.js"
+  ]
+}
