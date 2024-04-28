@@ -1,0 +1,87 @@
+.hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+  }
+  
+.profile-image {
+    width: 300px;
+    height: auto;
+}
+
+.hero-title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+  
+.hero h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 55px;
+  }
+  
+.hero p {
+    font-size: 30px;
+    width: 85%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #DF8908 10%, #ff156b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 12.5px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.hero-connect {
+    padding: 25px 45px;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #ff156b 106.28%);
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.hero-resume {
+    padding: 25px 60px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    color:white;
+    text-decoration: none; 
+}
+
+.hero-connect:hover {
+    border: 2px solid white;
+
+}
+
+.hero-resume:hover {
+    border-color: #ff156b
+}
+
+.hero-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 60%;
+    gap: 20px;
+}

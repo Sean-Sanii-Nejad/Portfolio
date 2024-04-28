@@ -3,67 +3,90 @@
     align-items: center;
     justify-content:space-around;
     margin: 0px 0px;
-    background-color: #6b5220;
+    background-color: #111;
     position: fixed;
-    height: 100px;
+    height: 80px;
     z-index: 1;
     width: 100%;
   }
 
-  .nav-menu {
+.nav-menu {
     padding-left: 0px;
     display: flex;
     align-items: center;
     list-style: none;
     gap: 80px;
     font-size: 20px;
+}
+
+.nav-menu p:hover {
+    transform: scale(1.12);
+    transition: 0.5s;
+    background-clip: text;
+    background: linear-gradient(270deg, #DF8908 10%, #ff156b 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
-  .logo {
-    width: 100px;
+.anchor-link {
+    transition: 2s;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.active-tab {
+    transform: scale(1.12);
+    background: linear-gradient(270deg, #DF8908 10%, #ff156b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+.logo {
+    width: 75px;
     height: auto;
-    padding-top: 5px;
-  }
+    padding-top: 25px;
+}
 
-  .instagram {
+.instagram {
     width: 47.5px;
     height: 45px;
     transition: 0.5s;
-  }
-  
-  .linkedin {
+}
+
+.linkedin {
     width: 47.5px;
     height: 45px;
     transition: 0.5s;
-  }
-  
-  .facebook {
+}
+
+.facebook {
     width: 47.5px;
     height: 45px;
     transition: 0.5s;
-  }
+}
 
-  .instagram:hover {
+.instagram:hover {
     transform: scale(1.10);
-  }
-  
-  .facebook:hover {
-    transform: scale(1.10);
-  }
-  
-  .linkedin:hover {
-    transform: scale(1.10);
-  }
+}
 
-  .nav-mob-close{
+.facebook:hover {
+    transform: scale(1.10);
+}
+
+.linkedin:hover {
+    transform: scale(1.10);
+}
+
+.nav-mob-close{
     display: none;
-  }
+}
 
-  .social-icons-container{
+.social-icons-container{
     display: flex;
     align-items: center;
     gap: 40px;
     justify-content:space-evenly;
-    width: 200px;
+    width: 230px;
     position:relative;
-  }
+}

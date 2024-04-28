@@ -1,0 +1,26 @@
+import "./hero.css"
+import profile_img from "./sean.png"
+
+const Hero = () => {
+    const githubUrl = "https://github.com/Sean-Sanii-Nejad";
+    const cvUrl = "Sean_CV.pdf";
+  
+    return (
+    <div id="home" className="hero">
+        <div className="hero-title">
+            <img id="home" src={profile_img} alt="" className="profile-image" />
+            <h1><span>I'm Sean Sanii Nejad,</span></h1>
+        </div>  
+        <div className="hero-description">
+            <h1><span>Games Programmer Graduate</span> based in London</h1>
+            <p>I am a graduate holding a Master's in Computer Games from Queen Mary and a Bachelor's in Computer Science from the University of Kent. Here's a glimpse into my portfolio.</p>
+            <div className="hero-action">
+                <a href={githubUrl} className="hero-connect" target="_blank" rel="noopener noreferrer">My GitHub</a>
+                <a href={cvUrl} download="Sean_CV.pdf" className="hero-resume" target="_blank" rel="noopener noreferrer">My CV</a>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Hero
