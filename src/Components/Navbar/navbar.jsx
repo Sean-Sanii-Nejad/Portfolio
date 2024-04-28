@@ -18,7 +18,7 @@ const Navbar = () => {
       <ul className="nav-menu">
         <li><AnchorLink className="anchor-link" offset={200} href="#home"><p id="homes" className={activeTab === 0 ? 'active-tab' : ''} onClick={() => handleTabClick(0)}>Home</p></AnchorLink></li>
         <li><AnchorLink className="anchor-link" offset={90} href="#portfoliox"><p id="aboutmes" className={activeTab === 1 ? 'active-tab' : ''}onClick={() => handleTabClick(1)}>Portfolio</p></AnchorLink></li>
-        <li><AnchorLink className="anchor-link" offset={-200} href="#codesnippetsx"><p id="photos" className={activeTab === 2 ? 'active-tab' : ''}onClick={() => handleTabClick(2)}>Code Snippets</p></AnchorLink></li>
+        <li><AnchorLink className="anchor-link" offset={0} href="#codesnippetsx"><p id="photos" className={activeTab === 2 ? 'active-tab' : ''}onClick={() => handleTabClick(2)}>Code Snippets</p></AnchorLink></li>
         <li><AnchorLink className="anchor-link" offset={100} href="#aboutme"><p className={activeTab === 3 ? 'active-tab' : ''}onClick={() => handleTabClick(3)}>About Me</p></AnchorLink></li>
         <li><AnchorLink className="anchor-link" offset={100} href="#contact"><p id="contacts" className={activeTab === 4 ? 'active-tab' : ''}onClick={() => handleTabClick(4)}>Contact</p></AnchorLink></li>
       </ul>

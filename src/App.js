@@ -1,10 +1,11 @@
-import './App.css';
-import Navbar from './Components/Navbar/navbar'; 
+import './App.css'
+import Navbar from './Components/Navbar/navbar'
 import Hero from './Components/Hero/hero'
-import Portfolio from './Components/Portfolio/portfolio';
-import CodeSnippet from './Components/CodeSnippet/codesnippet';
+import Portfolio from './Components/Portfolio/portfolio'
+import CodeSnippet from './Components/CodeSnippet/codesnippet'
 import AboutMe from './Components/AboutMe/aboutme'
 import Contact from './Components/Contact/contact'
+import Game from './Components/Game/game'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Navbar />
         <Hero />
         <Portfolio />
+        <Game />
         <CodeSnippet />
         <AboutMe />
         <Contact />
