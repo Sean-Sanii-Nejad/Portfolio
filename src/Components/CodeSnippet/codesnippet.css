@@ -1,6 +1,10 @@
+.codesnippet {
+  width: 100%;
+}
+
 .codesnippet h1 {
-    font-size: 60px;
-    font-weight: 400;
+  font-size: 60px;
+  font-weight: 400;
     padding-bottom: 20px;
     margin-top: 100px;
   }
@@ -9,6 +13,14 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
+    width: 100%;
+  }
+
+  .example2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 92%;
   }
   
   .example p span {
@@ -71,6 +83,14 @@
   .img-special{
     max-width: 300%; 
   }
+
+  .img-special-small{
+    max-width: 150%; 
+  }
+
+  .img-special-medium{
+    max-width: 110%; 
+  }
   
   .h3-gap {
     padding-top: 30px !important;
@@ -100,7 +120,7 @@
     width: 100%;
     background: linear-gradient(270deg, #df890854 10%, #ff156b59 100%);
   }
-  
+
   .command-titles {
     display: flex;
     justify-content: space-between;
@@ -111,7 +131,7 @@
   .codesnippet-what-why-how {
     display: inline-block; 
     flex-direction: grid;
-    width: 85%;
+    width: 100%;
   }
 
   .command-left-column {
@@ -144,6 +164,11 @@
     border: none;
     height: 3px;
     background: linear-gradient(264deg, #DF8908 -5.09%, #ff156b 106.28%);
+  }
+
+  .pixel-game-space {
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   
   

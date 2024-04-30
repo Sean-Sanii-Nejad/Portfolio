@@ -13,7 +13,7 @@ const Hero = () => {
         </div>  
         <div className="hero-description">
             <h1><span>Games Programmer Graduate</span> based in London</h1>
-            <p>I am a graduate holding a Master's in Computer Games from Queen Mary and a Bachelor's in Computer Science from the University of Kent. Here's a glimpse into my portfolio.</p>
+            <p>Master's in Computer Games from Queen Mary and a Bachelor's in Computer Science from the University of Kent.</p>
             <div className="hero-action">
                 <a href={githubUrl} className="hero-connect" target="_blank" rel="noopener noreferrer">My GitHub</a>
                 <a href={cvUrl} download="Sean_CV.pdf" className="hero-resume" target="_blank" rel="noopener noreferrer">My CV</a>

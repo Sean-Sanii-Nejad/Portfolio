@@ -1,5 +1,5 @@
 .unity-outer-container {
-    width: 99%;
+    width: 100%;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -14,16 +14,6 @@
     align-items: center;
     border-radius: 10px;
     border: 3px solid white !important;
-}
-
-#react-unity-webgl-canvas-4 {
-    width: 960px;
-    height: 600px;
-}
-
-#react-unity-webgl-canvas-2 {
-    width: 960px;
-    height: 600px;
 }
 
 .unity-outer-container h2 {
@@ -41,3 +31,48 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+#react-unity-webgl-canvas-0 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-1 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-2 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-3 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-4 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-5 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-6 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-7 {
+    width: 960px;
+    height: 600px;
+}
+
+#react-unity-webgl-canvas-8 {
+    width: 960px;
+    height: 600px;
+}
