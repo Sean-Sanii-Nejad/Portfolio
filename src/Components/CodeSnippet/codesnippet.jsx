@@ -1,7 +1,8 @@
 import "./codesnippet.css"
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import video from "./axeman.mp4"
 import pixelGameVideo from "./pixelgame.mp4"
+import spellcasterVideo from "./spellcaster.mp4"
 import image_command from "./command_code.png"
 import image_command_inputhandler_h from "./command_code_2.png"
 import image_command_playercommand_cpp from "./command_code_3.png"
@@ -264,8 +265,9 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
             <div className="example2">
               <h2>Spell Caster <span>C++ & Unreal Engine</span></h2>
               <video width="640" height="360" controls>
-                {/* <source src={pixelGameVideo} type="video/mp4" /> */}
+                <source src={spellcasterVideo} type="video/mp4" />
               </video>
+              <p>Video shows two clients and a server communicating together</p>
               <p className="bigger-p">Still In Development!</p>
             </div>
           )}
