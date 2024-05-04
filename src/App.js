@@ -8,6 +8,7 @@ import Contact from './Components/Contact/contact'
 import Game from './Components/Game/game'
 
 function App() {
+  
   return (
     <div className="App">
       <header className="App-header">

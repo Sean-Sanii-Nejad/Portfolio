@@ -35,7 +35,7 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
                 className={activeTab === 0 ? 'active-tab' : ''}
                 onClick={() => handleTabClick(0)}
               >
-                Axe Man
+                Axe Man(C++ / SFML)
               </p>
             </li>
             <li>
@@ -44,7 +44,16 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
                 className={activeTab === 1 ? 'active-tab' : ''}
                 onClick={() => handleTabClick(1)}
               >
-                Pixel Game
+                Pixel Game (C# / Unity)
+              </p>
+            </li>
+            <li>
+              <p
+                id="RPG"
+                className={activeTab === 2 ? 'active-tab' : ''}
+                onClick={() => handleTabClick(2)}
+              >
+                RPG (C++ / Unreal Engine)
               </p>
             </li>
           </ul>
@@ -55,7 +64,7 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
               <video width="640" height="360" controls>
                 <source src={video} type="video/mp4" />
               </video>
-              <h3>Command Pattern</h3>
+              <h3>Command Pattern <span>Switching Controls Between Mouse, Keyboard, Arrow Keys</span></h3>
               <div className="codesnippet-what-why-how">
                 <div className="command-left-column">
                   <p><span>What?</span></p>
@@ -163,7 +172,7 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
   
           {activeTab === 1 && (
             <div className="example2">
-              <h2>Pixel Game <span>Some Tech</span></h2>
+              <h2>Pixel Game <span>C# & Unity</span></h2>
               <video width="640" height="360" controls>
                 <source src={pixelGameVideo} type="video/mp4" />
               </video>
@@ -207,6 +216,57 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
                   </div>
                 </div>
               </div>
+              <h3>Future Development</h3>
+              <div className="">
+                <ul className="nested">
+                  <li>Implement Settings</li>
+                  <li>
+                    <ul>
+                      <li>
+                        Allowing User to Change Music Volumne
+                      </li>
+                      <li>
+                        Allowing User to Change Sound Effects Volume
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Implement Turn Based Combat</li>
+                  <li>
+                    <ul>
+                      <li>
+                        Use Command Pattern, so history of spells can be recorded
+                      </li>
+                      <li>
+                        Implement Gameplay Ability System
+                      </li>
+                    </ul>
+                  </li>
+                  <li>Implement UI Changes</li>
+                  <li>
+                    <ul>
+                      <li>
+                        Implement UI for Combat Battle System
+                      </li>
+                      <li>
+                        Implement UI for Settings
+                      </li>
+                      <li>
+                        Implement UI for Debuffs on Player
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          )}
+  
+          {activeTab === 2 && (
+            <div className="example2">
+              <h2>Spell Caster <span>C++ & Unreal Engine</span></h2>
+              <video width="640" height="360" controls>
+                {/* <source src={pixelGameVideo} type="video/mp4" /> */}
+              </video>
+              <p className="bigger-p">Still In Development!</p>
             </div>
           )}
   
