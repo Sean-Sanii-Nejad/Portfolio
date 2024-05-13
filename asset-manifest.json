@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.a09aa014.css",
-    "main.js": "/Portfolio/static/js/main.cb0a7520.js",
+    "main.js": "/Portfolio/static/js/main.79bde02c.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/pixelgame.mp4": "/Portfolio/static/media/pixelgame.e13cbddabbf375ae11dc.mp4",
     "static/media/spellcaster2.mp4": "/Portfolio/static/media/spellcaster2.0aab293a44cab1731c49.mp4",
-    "static/media/spellcaster.mp4": "/Portfolio/static/media/spellcaster.a1946f3bce9302b3ef0f.mp4",
+    "static/media/spellcaster3.mp4": "/Portfolio/static/media/spellcaster3.a288575eb5635a083d41.mp4",
     "static/media/aboutme_sean_2.jpg": "/Portfolio/static/media/aboutme_sean_2.a3f5bd152cf6ebe9a1b3.jpg",
     "static/media/axeman.mp4": "/Portfolio/static/media/axeman.30f2c350947b861af2c4.mp4",
     "static/media/unreal.png": "/Portfolio/static/media/unreal.208f65a00524decec653.png",
@@ -31,11 +31,11 @@
     "static/media/flyweight_code_3.png": "/Portfolio/static/media/flyweight_code_3.2372f057e518c2193d2c.png",
     "index.html": "/Portfolio/index.html",
     "main.a09aa014.css.map": "/Portfolio/static/css/main.a09aa014.css.map",
-    "main.cb0a7520.js.map": "/Portfolio/static/js/main.cb0a7520.js.map",
+    "main.79bde02c.js.map": "/Portfolio/static/js/main.79bde02c.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a09aa014.css",
-    "static/js/main.cb0a7520.js"
+    "static/js/main.79bde02c.js"
   ]
 }
