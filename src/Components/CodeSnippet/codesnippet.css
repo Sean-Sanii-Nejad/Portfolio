@@ -99,6 +99,10 @@
   .img-special-medium{
     max-width: 110%; 
   }
+
+  .img-special-tiny {
+    max-width: 50%;
+  }
   
   .h3-gap {
     padding-top: 30px !important;
@@ -200,6 +204,3 @@ li {
   
 }
 
-.colour {
-  
-}

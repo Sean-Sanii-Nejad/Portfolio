@@ -26,7 +26,7 @@
     z-index: -1;
 }
 
-.portfolio-format {
+#portfolio-format {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    margin-bottom: 80px;
+    margin-bottom: -40px;
 }
 
 .portfolio-format h3 {
@@ -50,7 +50,7 @@
     font-weight: 600;
 }
 
-.portfolio-format h2 {
+#portfolio-format h2 {
     font-size: 28px;
     font-weight: 800;
     background: linear-gradient(264deg, #DF8908 50%, #ff156b 100%);
@@ -80,11 +80,221 @@
     transition: 0.4s;
 }
 
-.portfolio-letters {
+.active-tabb {
+    border: 2px solid #ff156b !important;
+    background: linear-gradient(45deg,#860b38, #784a04);
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+portfolio-letters {
     text-decoration: none;
 }
 
 .portfolio p {
-    color: white;
+    color: white !important;
     padding-top: 10px;
 }
+/* ---------------------------------------------------------------------------------------------------------------  */
+
+.game-title {
+    width: 100%;
+    margin: 0 auto; /* Center the entire content horizontally */
+  }
+  
+  .game-row {
+    
+  }
+
+  .game-intro {
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .game-row1 {
+    padding-top: 25px;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  
+  .game-row p {
+    line-height: 21px;
+  }
+  
+  .game-title h2 {
+    text-align: center;
+    font-size: 52px;
+    background: linear-gradient(270deg, #DF8908 40%, #ff156b 60%); /* Adjust the gradient stops */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: transparent; /* Set the background color to transparent */
+  }
+  
+  .game-title h2 span {
+    font-size: 20px;
+    background: linear-gradient(270deg, #ffffff 10%, #ffffff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .game-title h3 {
+    font-weight: 500;
+    font-size: 30px;
+    background: linear-gradient(270deg, #DF8908 90%, #ff156b 100%); /* Adjust the gradient stops */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .game-title h4 {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .video-container {
+    width: 50%; /* Adjust the width to fit two videos in a row */
+    margin-right: 2%; /* Add margin between videos */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center; /* Center the video horizontally */
+  }
+  
+  .video-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .video-row-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .video-container video {
+    width: 100%;
+    max-width: 100%; /* Ensure videos don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .video-container:last-child {
+    margin-right: 0; /* Remove margin from last video in row */
+  }
+
+  .command-titless {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 50px;
+  }
+
+  .command-titlesss {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 0px;
+  }
+
+  .code-roww {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: grid;
+    gap: 10px;
+  }
+
+  .scrollable-image-containerr {
+    width: 500px; 
+    height: 400px; 
+    overflow: auto; 
+    border: 1px solid #ccc;
+  }
+
+  .scrollable-image-container-speciall {
+    width: 1200px; 
+    height: 800px; 
+    overflow: auto; 
+    border: 1px solid #ccc;
+  }
+
+  .img-special-perfect{
+    max-width: 175%; 
+  }
+  .img-special-perfect_{
+    max-width: 200%; 
+  }
+
+  .img-special-perfect-perfect {
+    max-width: 140%;
+  }
+
+  .img-special-smalll{
+    max-width: 150%; 
+  }
+
+  .img-special-mediumm{
+    max-width: 110%; 
+  }
+
+  .player-interaction-snippet {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .img-speciall{
+    max-width: 300%; 
+  }
+
+  .img-big{
+    max-width: 225%; 
+  }
+
+  .img-special-tinyy {
+    max-width: 101%;
+  }
+
+  .game-row h4 span {
+    font-weight: 500;
+    background: linear-gradient(270deg, #DF8908 10%, #ff156b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .player-interaction-snippet h4 span {
+    font-weight: 500;
+    background: linear-gradient(270deg, #DF8908 10%, #ff156b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .code {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .code-titlee {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .code-rowww {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+
+ 
+  
+  
+
+

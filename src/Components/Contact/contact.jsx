@@ -14,7 +14,7 @@ const Contact = () => {
             <div className="contact-details">
                <div className="contact-detail">
                 <img className="resize" src={email} alt=""/> 
-                <p>sean-saniinejad@hotmail.co.uk</p>
+                <p>ssanii.career@gmail.com</p>
                </div>
                <div className="contact-detail"> 
                 <img className="resize" src={phone} alt=""/>

@@ -27,7 +27,7 @@ const AboutMe = () => {
               <div className="about-skills">
                 <div className="about-skill"><p>Java, C#, C++, Unity, SFML, Unreal Engine <span><strong>| Objected Oriented Programming</strong></span></p><hr style={{ width: "100%" }} /></div>
                 <div className="about-skill"><p>mySQL, PostgreSQL, UNIX, Linux, Raspberry Pi, Computer Building <span><strong>| Computer Architecture</strong></span></p><hr style={{ width: "100%" }} /></div>
-                <div className="about-skill"><p>Haskell, Erlang <span><strong>| Procedural Programming</strong></span></p><hr style={{ width: "100%" }} /></div>
+                <div className="about-skill"><p>Haskell, Erlang <span><strong>| Functional Programming</strong></span></p><hr style={{ width: "100%" }} /></div>
                 <div className="about-skill"><p>HTML, CSS, JavaScript, React <span><strong>| Web Development</strong></span></p><hr style={{ width: "100%" }} /></div>
               </div>
             </div>

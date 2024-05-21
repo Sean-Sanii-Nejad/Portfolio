@@ -3,6 +3,8 @@ import React, { useState } from 'react'
 import video from "./axeman.mp4"
 import pixelGameVideo from "./pixelgame.mp4"
 import spellcasterVideo from "./spellcaster.mp4"
+import spellcasterVideo2 from "./spellcaster2.mp4"
+import spellcasterVideo3 from "./spellcaster3.mp4"
 import image_command from "./command_code.png"
 import image_command_inputhandler_h from "./command_code_2.png"
 import image_command_playercommand_cpp from "./command_code_3.png"
@@ -15,6 +17,7 @@ import image_flyweight_5 from "./flyweight_code_5.png"
 import image_pixel_command_0 from "./pixel_commad_code_0.png"
 import image_pixel_command_1 from "./pixel_commad_code_1.png"
 import image_pixel_command_2 from "./pixel_commad_code_2.png"
+import unreal_blueprints from "./unreal.png"
 
 
     const CodeSnippet = () => {
@@ -28,7 +31,6 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
       <div id="codesnippetsx" className="codesnippet">
         <div className="example">
           <h1>Code Snippets</h1>
-  
           <ul className="nav-menu">
             <li>
               <p
@@ -267,8 +269,18 @@ import image_pixel_command_2 from "./pixel_commad_code_2.png"
               <video width="640" height="360" controls>
                 <source src={spellcasterVideo} type="video/mp4" />
               </video>
-              <p>Video shows two clients and a server communicating together</p>
+              <p>Damage numbers, crit and block, Attributes influencing damage numbers.</p>
+              <video width="640" height="360" controls>
+                <source src={spellcasterVideo2} type="video/mp4" />
+              </video>
+              <p>Video shows two clients and a server communicating together.</p>
+              <video width="640" height="360" controls>
+                <source src={spellcasterVideo3} type="video/mp4" />
+              </video>
+              <p>Enemy units using blackboard and behaviour tree to chase player and attack.</p>
               <p className="bigger-p">Still In Development!</p>
+              <img className="img-special-tiny" src={unreal_blueprints} alt="Scrollable" />  
+              
             </div>
           )}
   

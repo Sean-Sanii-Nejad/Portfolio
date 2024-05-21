@@ -15,10 +15,12 @@ function App() {
       <div className="App">
         <Navbar />
         <Hero />
-        <Portfolio />
-        <Game />
-        <CodeSnippet />
         <AboutMe />
+        <Game />
+        <Portfolio />
+        
+        {/* <CodeSnippet /> */}
+        
         <Contact />
       </div>
       </header>
