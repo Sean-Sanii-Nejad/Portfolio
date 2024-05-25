@@ -112,8 +112,8 @@ const Portfolio = () => {
           <div className="game-row">
             <div className="game-intro">
               <h3>Introduction</h3>
-              <p>For this project, I aim to create a polished and aesthetically pleasing game. I've decided to go with a 2D pixel art style, which can effectively achieve this visual appeal. The game will incorporate RPG elements, featuring an inventory system, player attributes, and turn-based combat similar to Pokémon.</p>
-              <p>Players will be able to interact with various objects, including doors, NPCs, and containers holding items. To ensure the code is maintainable and scalable, I've implemented the command and state design patterns. My goal is to adhere to industry standards, preparing the project for professional-level development.</p>
+              <p>For this project, I aim to create a polished and aesthetically pleasing game. I went with a 2D pixel art style, which can achieve this visual appeal. The game will incorporate RPG elements, featuring an inventory system, player attributes, and turn-based combat similar to Pokémon.</p>
+              <p>Players will be able to interact with various objects, including doors, NPCs, and containers holding items. To ensure the code is maintainable and scalable, I've implemented the command and state design patterns. My goal is to follow industry standards, to demostrate that I can program for a professional environment.</p>
             </div>
           </div>
           <div className="game-row1">
